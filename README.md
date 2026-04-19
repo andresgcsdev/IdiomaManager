@@ -2,14 +2,14 @@
 
 ## Versão em Português
 
-# 🗣️ IdiomaManager – Sistema de Gerenciamento de Idiomas em C++
+#  IdiomaManager – Sistema de Gerenciamento de Idiomas em C++
 
 Um sistema de **gerenciamento de dados em console**, desenvolvido inteiramente em C++, para armazenar, ordenar e filtrar informações sobre idiomas ao redor do mundo.  
 Projeto desenvolvido para a disciplina *Projeto Prático – Sistema de Cadastro em Arquivos com Ordenação (2025s2)* da **Universidade Federal de Lavras (UFLA)**.
 
 ---
 
-## 🚀 Funcionalidades
+##  Funcionalidades
 
 - **Estrutura de vetor dinâmico** com gerenciamento manual de memória  
 - **Operações CRUD** (Criar, Ler, Atualizar, Excluir)  
@@ -22,7 +22,7 @@ Projeto desenvolvido para a disciplina *Projeto Prático – Sistema de Cadastro
 
 ---
 
-## 🧩 Detalhes Técnicos
+##  Detalhes Técnicos
 
 | Aspecto | Descrição |
 |----------|------------|
@@ -35,7 +35,7 @@ Projeto desenvolvido para a disciplina *Projeto Prático – Sistema de Cadastro
 
 ---
 
-## 📂 Estrutura do Projeto
+##  Estrutura do Projeto
 ```
 IdiomaManager/
 ├── IdiomaController.cpp # Arquivo principal (contém toda a lógica e a função main)
@@ -45,19 +45,19 @@ IdiomaManager/
     └── Relatório - Sistema de Gerenciamento de Idiomas.pdf # Relatório e reflexões do projeto
 ```
 
-### 🧱 Compilação
+###  Compilação
 ```
 bash
 g++ -std=c++17 IdiomaManager.cpp -o idiomaManager
 ```
 
-## 💻 Execução do Programa
+##  Execução do Programa
 ```
 bash
 ./idiomaManager
 ```
 
-## 🧾 Estrutura do CSV
+##  Estrutura do CSV
 
 A primeira linha do arquivo db.csv é reservada para o número de idiomas armazenados na tabela
 
@@ -78,11 +78,11 @@ Cada linha representa um idioma, com os seguintes campos:
 - **numFalantes** → Número de falantes (em milhões)  
 - **pricipalPais** → País onde o idioma é predominante  
 
-> ⚠️ O arquivo deve manter o mesmo formato para que o sistema consiga carregar e salvar os dados corretamente.
+>  O arquivo deve manter o mesmo formato para que o sistema consiga carregar e salvar os dados corretamente.
 
 ---
 
-## 🧠 Aprendizados Principais
+##  Aprendizados Principais
 
 Durante o desenvolvimento do sistema, foram consolidados diversos conceitos de programação em C++:
 
@@ -93,7 +93,7 @@ Durante o desenvolvimento do sistema, foram consolidados diversos conceitos de p
 
 ---
 
-## 🧰 Desenvolvimento
+##  Desenvolvimento
 
 | Autor | Função |
 |--------|--------|
@@ -102,14 +102,14 @@ Durante o desenvolvimento do sistema, foram consolidados diversos conceitos de p
 
 ---
 
-## 🗒️ Licença
+##  Licença
 
 Projeto desenvolvido para fins acadêmicos no curso de *Ciência da Computação* da **Universidade Federal de Lavras (UFLA)**.  
 O código pode ser reutilizado para fins educacionais ou de referência, desde que seja mantida a devida atribuição aos autores.
 
 ---
 
-## 🎥 Demonstração
+##  Demonstração
 
 <p align="center">
   <img src="assets/demo.gif" alt="Demonstração do IdiomaManager" width="700">
@@ -122,14 +122,14 @@ O código pode ser reutilizado para fins educacionais ou de referência, desde q
 
 ## English Version
 
-# 🗣️ IdiomaManager – Language Management System in C++
+#  IdiomaManager – Language Management System in C++
 
 A **console-based data management system** fully developed in C++ to store, sort, and filter information about world languages.  
 This project was developed for the course *Projeto Prático – Sistema de Cadastro em Arquivos com Ordenação (2025s2)* at the **Federal University of Lavras (UFLA)**.
 
 ---
 
-## 🚀 Features
+##  Features
 
 - **Dynamic array structure** with manual memory management  
 - **CRUD operations** (Create, Read, Update, Delete)  
@@ -155,7 +155,7 @@ This project was developed for the course *Projeto Prático – Sistema de Cadas
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 ```
 IdiomaManager/
 ├── IdiomaController.cpp # Main file (contains all logic and the main function)
@@ -164,19 +164,19 @@ IdiomaManager/
     └── Projeto-Prático-Descrição-2025s2.docx # Original assignment specification
     └── Relatório - Sistema de Gerenciamento de Idiomas.pdf # Project report and reflections (in portuguese)
 ```
-### 🧱 Compilation
+###  Compilation
 ```
 bash
 g++ -std=c++17 IdiomaManager.cpp -o idiomaManager
 ```
 
-## 💻 Program Execution
+##  Program Execution
 ```
 bash
 ./idiomaManager
 ```
 
-## 🧾 CSV Structure
+##  CSV Structure
 
 The first line in the `db.csv` file is reserved for the number of languages in the table
 
@@ -188,10 +188,10 @@ Each line after that follows this structure:
 3; English; Indo-European (Germanic); 380.0000; United States;
 4; Hindi; Indo-European (Indo-Aryan); 345.0000; India;
 ```
-> ⚠️ The file must follow this format exactly for the system to load and save data correctly.
+>  The file must follow this format exactly for the system to load and save data correctly.
 
 ---
-## 🧠 Key Learning Outcomes
+##  Key Learning Outcomes
 
 During development, several C++ programming concepts were reinforced:
 
@@ -202,7 +202,7 @@ During development, several C++ programming concepts were reinforced:
 
 ---
 
-## 🧰 Development
+##  Development
 
 | Author | Role |
 |--------|------|
@@ -211,14 +211,14 @@ During development, several C++ programming concepts were reinforced:
 
 ---
 
-## 🗒️ License
+##  License
 
 This project was developed for academic purposes as part of the *Computer Science* program at the **Federal University of Lavras (UFLA)**.  
 The source code may be reused for educational or reference purposes, provided proper attribution is given to the authors.
 
 ---
 
-## 🎥 Demo (In portuguese)
+##  Demo (In portuguese)
 
 <p align="center">
   <img src="assets/demo.gif" alt="IdiomaManager demonstration" width="700">
